@@ -1,0 +1,35 @@
+  { 
+   "data" : [
+    {
+      "id": 1,
+      "img": "https://img.freepik.com/free-vector/graphic-designer-workplace_23-2148117506.jpg",
+      "title": "Unboxing the Future: A Tech Gadget Evolution",
+      "info": "This electrifying motion graphic video blasts you through a whirlwind tour of the gadgets that shaped our world. Buckle up as we morph from primitive tools to sleek smartphones, all in a dazzling display of animation.",
+      "url": "https://www.youtube.com/watch?v=uI_UhlAdkBE"
+    },
+    {
+      "id": 2,
+      "img": "https://img.freepik.com/free-vector/graphic-designer-workplace_23-2148117506.jpg",
+      "info": "this is first card",
+      "url": "https://www.youtube.com/watch?v=uI_UhlAdkBE"
+    },
+    {
+      "id": 3,
+      "img": "https://img.freepik.com/free-vector/graphic-designer-workplace_23-2148117506.jpg",
+      "info": "this is first card",
+      "url": "https://www.youtube.com/watch?v=uI_UhlAdkBE"
+    },
+    {
+      "id": 4,
+      "img": "https://img.freepik.com/free-vector/graphic-designer-workplace_23-2148117506.jpg",
+      "info": "this is first card",
+      "url": "https://www.youtube.com/watch?v=uI_UhlAdkBE"
+    },
+    {
+      "id": 5,
+      "img":"https://img.freepik.com/free-vector/graphic-designer-workplace_23-2148117506.jpg",
+      "info": "this is first card",
+      "url": "https://www.youtube.com/watch?v=uI_UhlAdkBE"
+    }
+]
+  }

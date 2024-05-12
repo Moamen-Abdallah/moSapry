@@ -1,0 +1,27 @@
+{
+    "motion":[
+        {
+            "id":1,
+            "title":"Experience in creating attractive motion graphics :",
+            "disc":" I have experience in creating different types of motion graphics, including explainer videos, promotional clips, animated illustrations, infographics, and more"
+
+        },{
+            "id":2,
+            "title":"Effective Design Process :",
+            "disc":"Follow a collaborative design process to ensure your needs and vision are fully met."
+        },
+        {
+            "id":3,
+            "title":"Creative Ideas :",
+            "disc":"I am a creative thinker, and I have a passion for design. I am always looking for new ways to express my creativity."
+        },{
+            "id":4,
+            "title":"Punctuality and constant communication :",
+            "disc":"I deliver projects on time and communicate with you constantly throughout the design process."
+        },{
+            "id":5,
+            "title":"Competitive Prices :",
+            "disc":"I offer competitive prices and high quality to fit your budget"
+        }
+    ]
+}

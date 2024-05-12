@@ -1,0 +1,75 @@
+.book{
+    width: 270px;
+    height: 300px;
+    perspective: 2000px;
+    background-color: var(--main-color);
+    position: relative;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+}
+.book > p{
+    color: #fff;
+}
+.book .cover{
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    border-radius:0 10px 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 0;
+    cursor: pointer;    
+    box-shadow:  1px 1px 12px #efefef;
+  transition: all 0.5s;
+
+}
+.book:hover .cover{
+  transition: all 0.5s;
+  transform: rotateY(-90deg);
+}
+.cover img{
+    height: 100% !important;
+    width: 100%;
+    border-radius:0 10px 10px 0;
+    object-fit: fill;
+    object-position: center;
+}
+.book h3{
+    text-align: start;
+    font-size: 20px;
+    font-family: var(--title-font);
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    padding-left: 5px;
+}
+.book p{
+    font-size: 15px;
+    font-family: var(--title-font);
+    font-weight: 400;
+    text-transform: lowercase;
+    text-align: start;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.book a{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    color: var(--navy-color);
+    font-family: var(--title-font);
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .5s;
+}
+.book a:hover{
+    transform: scale(1.1)translateX(5px);
+    box-shadow: 1px 1px  5px 1px #fff;
+
+}   

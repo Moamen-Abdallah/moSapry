@@ -1,0 +1,129 @@
+.advantage{
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+}
+.advantage .title{
+text-align: center; 
+position: relative;
+margin-bottom: 100px;
+font-family: var(--title-font);
+font-weight: 500;
+letter-spacing: -1px;
+text-transform: capitalize;
+margin-top: -50px;
+}
+.mouse{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -45px;
+    width: 10px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: move;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.mouse::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    transform: rotate(45deg);
+}
+.mouse::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    transform: rotate(-45deg);
+}
+@keyframes move{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+/* ////////////// card */
+.advantage .row{
+    display: grid;
+    grid-template-columns: repeat(1 , 2fr);
+    margin-bottom: 20px;
+}
+.card_advantage{
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+margin-bottom: 15px;
+padding-top:0px ;
+padding-bottom: 20px;
+padding-inline: 10px;
+transition: .5s;
+border-radius: 1px;
+cursor: pointer;
+}
+
+.card_advantage:hover{
+    transform: scale(1.1 ,1.09);
+}
+.card_advantage h3{
+font-size: 22px;
+font-family: var(--title-font);
+font-weight: 500;
+text-transform: capitalize;
+color: var(--navy-color);
+margin-bottom: 10px;
+}
+.card_advantage p{
+color: #6176b9;
+font-size: 16px;
+
+}
+
+
+@media (max-width:991px){
+.title{
+    margin-top: -40px;
+}
+.card_advantage:hover{
+    transform: scale(1.04 ,1.09);
+}
+}
+
+@media (max-width:767px){
+.title{
+    margin-top: 40px;
+}
+.card_advantage:hover{
+    transform: scale(1.1 ,1.09);
+}
+}
+
+
+
+@media (max-width:450px){
+.title{
+    margin-top: -40px;
+}
+.card_advantage:hover{
+    transform: scale(1.04 ,1.09);
+}
+}
